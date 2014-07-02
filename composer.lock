@@ -1,0 +1,37 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "2fb4a04155a9d380f65a72c1fe7587f6",
+    "packages": [
+        {
+            "name": "MangoPay/mangopay2-php-sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:MangoPay/mangopay2-php-sdk.git",
+                "reference": "master"
+            },
+            "type": "library",
+            "time": "2014-06-30 07:33:09"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mangopay/mangopay2-php-sdk": 20
+    },
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": [
+
+    ]
+}
