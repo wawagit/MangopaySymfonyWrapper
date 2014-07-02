@@ -1,8 +1,8 @@
 {
-    "name": "visio/lib",
+    "name": "wawagit/MangopaySymfonyWrapper",
     "license": "MIT",
     "type": "project",
-    "description": "Visio Librairies",
+    "description": "Mongopay API Wrapper to integrate Mongopay into symfony2 project",
     "require": {
         "php": ">=5.3.3",
         "MangoPay/mangopay2-php-sdk": "dev-master"
