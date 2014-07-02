@@ -13,7 +13,7 @@ To use this wrapper:
 
 2 - You can use autoloader service of symfony to load MangoPay API:
 
-Edit autoload.php
+Edit app/autoload.php
 
     $loader->registerPrefixes(array(
         'MangoPay_' => __DIR__.'/../vendor/MangoPay/lib',
