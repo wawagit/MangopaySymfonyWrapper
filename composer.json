@@ -1,5 +1,5 @@
 {
-    "name": "wawagit/MangopaySymfonyWrapper",
+    "name": "wawagit/mangopay-symfony-wrapper",
     "license": "MIT",
     "type": "project",
     "description": "Mongopay API Wrapper to integrate Mongopay into symfony2 project",
