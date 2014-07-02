@@ -15,9 +15,7 @@ To use this wrapper:
 
 Edit app/autoload.php
 
-    $loader->registerPrefixes(array(
-        'MangoPay_' => __DIR__.'/../vendor/MangoPay/lib',
-    ));
+    $loader->add('MangoPay_' => __DIR__.'/../vendor/MangoPay/lib');
 
 
 And then use API like that:
