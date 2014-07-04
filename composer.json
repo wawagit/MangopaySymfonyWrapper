@@ -4,21 +4,8 @@
     "type": "project",
     "description": "Mongopay API Wrapper to integrate Mongopay into symfony2 project",
     "require": {
-        "php": ">=5.3.3",
-        "MangoPay/mangopay2-php-sdk": "dev-master"
+        "php": ">=5.3.3"
     },
-    "repositories": [{
-        "type": "package",
-        "package": {
-            "name": "MangoPay/mangopay2-php-sdk",
-            "version": "dev-master",
-            "source": {
-                    "url": "git@github.com:MangoPay/mangopay2-php-sdk.git",
-                "type": "git",
-            "reference": "master"
-            }
-            }
-    }],
     "autoload": {
         "psr-0": { "": "src/" }
     }

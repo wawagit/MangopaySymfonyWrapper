@@ -1,14 +1,3 @@
 [
-    {
-        "name": "MangoPay/mangopay2-php-sdk",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "git@github.com:MangoPay/mangopay2-php-sdk.git",
-            "reference": "master"
-        },
-        "type": "library",
-        "installation-source": "source"
-    }
+
 ]
