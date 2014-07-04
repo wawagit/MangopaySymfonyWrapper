@@ -8,6 +8,7 @@ To use this wrapper:
 
 1 - Add to your composer.json
 
+    "MangoPay/mangopay2-php-sdk": "dev-master",
     "wawagit/mangopay-symfony-wrapper": "dev-master"
 
 
@@ -15,9 +16,12 @@ To use this wrapper:
 
 Edit app/autoload.php
 
-    $loader->add('MangoPay_' => __DIR__.'/../vendor/MangoPay/lib');
+    $loader->add('MangoPay\\MangoPayApi', __DIR__.'/../vendor/wawagit/mangopay-symfony-wrapper/lib');
 
 
 And then use API like that:
 
-    $api = new \MangoPay_Api();
+    // At the beginning of your php file
+    use MangoPay\MangoPayApi;
+    
+    $api = new MangoPayApi();
