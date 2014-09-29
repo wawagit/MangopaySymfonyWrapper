@@ -1,5 +1,5 @@
 <?php
-$lib_path = __DIR__.'/../../../../MangoPay/mangopay2-php-sdk/MangoPaySDK/mangoPayApi.inc';
+$lib_path = __DIR__.'/../../../../mangopay/php-sdk-v2/MangoPaySDK/mangoPayApi.inc';
 
 if (is_file($lib_path))
 {
