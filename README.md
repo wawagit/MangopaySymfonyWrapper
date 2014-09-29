@@ -8,7 +8,7 @@ To use this wrapper:
 
 1 - Add to your composer.json
 
-    "MangoPay/mangopay2-php-sdk": "dev-master",
+    "mangopay/php-sdk-v2": "1.4.*",
     "wawagit/mangopay-symfony-wrapper": "dev-master"
 
 
